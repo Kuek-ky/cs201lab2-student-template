@@ -72,6 +72,33 @@ public class Lab2Test {
     System.out.println("------------------------");
 
     sll = new SinglyLinkedList<Integer>();
+    sll.addFirst(1);
+    sll.addFirst(2);
+    sll.addFirst(3);
+    sll.addFirst(4);
+    sll.addFirst(5);
+    sll.addFirst(6);
+    System.out.println("Before Swap AAAA :");
+    display(sll);
+    sll.swap();
+    System.out.println("After SwapAAAA :");
+    display(sll);
+    System.out.println("------------------------");
+    sll = new SinglyLinkedList<Integer>();
+    sll.addFirst(6);
+    sll.addFirst(5);
+    sll.addFirst(4);
+    sll.addFirst(3);
+    sll.addFirst(2);
+    sll.addFirst(1);
+    System.out.println("Before Swap AAAA :");
+    display(sll);
+    sll.swap();
+    System.out.println("After SwapAAAA :");
+    display(sll);
+    System.out.println("------------------------");
+
+    sll = new SinglyLinkedList<Integer>();
     sll.addFirst(3);
     sll.addFirst(2);
     sll.addFirst(1);
